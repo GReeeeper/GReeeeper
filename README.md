@@ -98,7 +98,7 @@ graph LR
 
 ### 📊 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=GReeeeper&show_icons=true&theme=radical&count_private=true" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GReeeeper&show_icons=true&theme=radical" alt="Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GReeeeper&layout=compact&theme=radical&hide=html,css" alt="Top Langs" />
 </p>
 

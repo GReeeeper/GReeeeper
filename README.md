@@ -50,7 +50,7 @@ graph TD
 A Host Intrusion Prevention System engineered for Windows, utilizing a custom Kernel Mode Driver (KMDF) to monitor process creation and registry ops.
 
 <details> <summary><b>🔎 View Architecture Diagram</b></summary>
-
+```
 graph TD
     subgraph User_Mode
         Service["Sentinel Service"]
@@ -61,14 +61,14 @@ graph TD
     end
     Service --> Driver
     Driver -.-> Callback1
-
+```
 </details>
 
 3. 💀 ShadowC2 (Adversary Simulation)
 A modular C2 framework prioritizing OPSEC with a Golang Team Server and stealthy, malleable C implants.
 
 <details> <summary><b>🔎 View Architecture Diagram</b></summary>
-
+```
 graph LR
     Operator["🔴 Operator"]
     TS["Team Server (Go)"]
@@ -77,7 +77,7 @@ graph LR
     Operator --> TS
     TS --> Listener
     Implant -- "Encrypted Beacon" --> Listener
-
+```
 </details>
 
 4. 🚗 AutoGuard (Automotive IDS)

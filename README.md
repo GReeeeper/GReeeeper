@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Actual Name]! 👋
+# Hi there, I'm Toumi Mehdi! 👋
 
 ### 🛡️ Cybersecurity Engineer | Kernel Researcher | Red Teamer
 I am a security engineer specializing in **Low-Level Security**, **Kernel Development**, and **Adversary Simulation**. My passion lies in understanding systems at the deepest level—from kernel syscalls to industrial protocols—to build robust defense mechanisms and simulate advanced threats.
@@ -6,7 +6,7 @@ I am a security engineer specializing in **Low-Level Security**, **Kernel Develo
 - 🔭 I’m currently working on a **Linux Kernel Security Monitor using eBPF**
 - 🛡️ I’m researching **ICS/SCADA Security** and **Windows Internals**
 - 🐧 Daily Driver: **Arch Linux**
-- 📫 Reach me at: **[Your Email]**
+- 📫 Reach me at: **ltoumi.mehdi@gmail.com**
 
 ---
 

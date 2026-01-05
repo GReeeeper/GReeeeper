@@ -46,16 +46,17 @@ graph TD
     Prog --> Map
     Map --> Reader
 ```
+
 </details>
 
-2. 🛡️ WinSentinel (Windows HIPS)
-A Host Intrusion Prevention System engineered for Windows, utilizing a custom Kernel Mode Driver (KMDF) to monitor process creation and registry ops.
+#### 2. 🛡️ WinSentinel (Windows HIPS)
+> *A Host Intrusion Prevention System engineered for Windows, utilizing a custom Kernel Mode Driver (KMDF) to monitor process creation and registry ops.*
 
-<details> <summary><b>🔎 View Architecture Diagram</b></summary>
+<details>
+<summary><b>🔎 View Architecture Diagram</b></summary>
+<br>
 
-
-Extrait de code
-```
+```mermaid
 graph TD
     subgraph User_Mode
         Service["Sentinel Service"]
@@ -67,16 +68,17 @@ graph TD
     Service --> Driver
     Driver -.-> Callback1
 ```
+
 </details>
 
-3. 💀 ShadowC2 (Adversary Simulation)
-A modular C2 framework prioritizing OPSEC with a Golang Team Server and stealthy, malleable C implants.
+#### 3. 💀 ShadowC2 (Adversary Simulation)
+> *A modular C2 framework prioritizing OPSEC with a Golang Team Server and stealthy, malleable C implants.*
 
-<details> <summary><b>🔎 View Architecture Diagram</b></summary>
+<details>
+<summary><b>🔎 View Architecture Diagram</b></summary>
+<br>
 
-
-Extrait de code
-```
+```mermaid
 graph LR
     Operator["🔴 Operator"]
     TS["Team Server (Go)"]
@@ -85,10 +87,22 @@ graph LR
     Operator --> TS
     TS --> Listener
     Implant -- "Encrypted Beacon" --> Listener
-</details>
 ```
-4. 🚗 AutoGuard (Automotive IDS)
-An Intrusion Detection System for CAN Bus networks that uses statistical analysis to detect replay attacks and fuzzing.
 
-📊 GitHub Stats
-<p align="left"> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DGReeeeper%26show_icons%3Dtrue%26theme%3Dradical%26count_private%3Dtrue" alt="Stats" /> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DGReeeeper%26layout%3Dcompact%26theme%3Dradical%26hide%3Dhtml,css" alt="Top Langs" /> </p>
+</details>
+
+#### 4. 🚗 AutoGuard (Automotive IDS)
+> *An Intrusion Detection System for CAN Bus networks that uses statistical analysis to detect replay attacks and fuzzing.*
+
+---
+
+### 📊 GitHub Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=GReeeeper&show_icons=true&theme=radical&count_private=true" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GReeeeper&layout=compact&theme=radical&hide=html,css" alt="Top Langs" />
+</p>
+
+---
+
+### 🔗 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([YOUR_LINKEDIN_URL])

@@ -43,38 +43,4 @@ graph TD
     Hook1 -.-> Prog
     Prog --> Map
     Map --> Reader
-</details>
-2. 🛡️ WinSentinel (Windows HIPS)
-A Host Intrusion Prevention System engineered for Windows, utilizing a custom Kernel Mode Driver (KMDF) to monitor process creation and registry ops.
 
-<details> <summary><b>🔎 View Architecture Diagram</b></summary>
-graph TD
-    subgraph User_Mode
-        Service["Sentinel Service"]
-    end
-    subgraph Kernel_Mode
-        Driver["Sentinel.sys Driver"]
-        Callback1(("PsCreateProcess"))
-    end
-    Service --> Driver
-    Driver -.-> Callback1
-</details>
-3. 💀 ShadowC2 (Adversary Simulation)
-A modular C2 framework prioritizing OPSEC with a Golang Team Server and stealthy, malleable C implants.
-
-<details> <summary><b>🔎 View Architecture Diagram</b></summary>
-graph LR
-    Operator["🔴 Operator"]
-    TS["Team Server (Go)"]
-    Listener["Listener"]
-    Implant["💀 Implant"]
-    Operator --> TS
-    TS --> Listener
-    Implant -- "Encrypted Beacon" --> Listener
-</details>
-
-4. 🚗 AutoGuard (Automotive IDS)
-An Intrusion Detection System for CAN Bus networks that uses statistical analysis to detect replay attacks and fuzzing.
-
-📊 GitHub Stats
-<p align="left"> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DGReeeeper&show_icons=true&theme=radical&count_private=true" alt="Stats" /> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DGReeeeper&layout=compact&theme=radical&hide=html,css" alt="Top Langs" /> </p>

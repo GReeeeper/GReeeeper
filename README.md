@@ -1,4 +1,4 @@
-# Hi there, I'm Toumi Mehdi! 👋
+# Hi there, I'm [Your Actual Name]! 👋
 
 ### 🛡️ Cybersecurity Engineer | Kernel Researcher | Red Teamer
 I am a security engineer specializing in **Low-Level Security**, **Kernel Development**, and **Adversary Simulation**. My passion lies in understanding systems at the deepest level—from kernel syscalls to industrial protocols—to build robust defense mechanisms and simulate advanced threats.
@@ -6,7 +6,7 @@ I am a security engineer specializing in **Low-Level Security**, **Kernel Develo
 - 🔭 I’m currently working on a **Linux Kernel Security Monitor using eBPF**
 - 🛡️ I’m researching **ICS/SCADA Security** and **Windows Internals**
 - 🐧 Daily Driver: **Arch Linux**
-- 📫 Reach me at: **ltoumi.mehdi@gmail.com**
+- 📫 Reach me at: **[Your Email]**
 
 ---
 
@@ -31,51 +31,43 @@ I am a security engineer specializing in **Low-Level Security**, **Kernel Develo
 ```mermaid
 graph TD
     subgraph User_Space [User Space]
-        Loader[Loader App (C/Go)]
-        Reader[Event Reader]
+        Loader["Loader App (C/Go)"]
+        Reader["Event Reader"]
     end
     subgraph Kernel_Space [Kernel Space]
-        Map[eBPF Ring Buffer]
-        Prog[eBPF Program]
-        Hook1((Syscall: execve))
+        Map["eBPF Ring Buffer"]
+        Prog["eBPF Program"]
+        Hook1(("Syscall: execve"))
     end
     Loader --> Prog
     Hook1 -.-> Prog
     Prog --> Map
     Map --> Reader
 </details>
-
 2. 🛡️ WinSentinel (Windows HIPS)
 A Host Intrusion Prevention System engineered for Windows, utilizing a custom Kernel Mode Driver (KMDF) to monitor process creation and registry ops.
 
 <details> <summary><b>🔎 View Architecture Diagram</b></summary>
-
-Extrait de code
-
 graph TD
     subgraph User_Mode
-        Service[Sentinel Service]
+        Service["Sentinel Service"]
     end
     subgraph Kernel_Mode
-        Driver[Sentinel.sys Driver]
-        Callback1((PsCreateProcess))
+        Driver["Sentinel.sys Driver"]
+        Callback1(("PsCreateProcess"))
     end
     Service --> Driver
     Driver -.-> Callback1
 </details>
-
 3. 💀 ShadowC2 (Adversary Simulation)
 A modular C2 framework prioritizing OPSEC with a Golang Team Server and stealthy, malleable C implants.
 
 <details> <summary><b>🔎 View Architecture Diagram</b></summary>
-
-Extrait de code
-
 graph LR
-    Operator[🔴 Operator]
-    TS[Team Server (Go)]
-    Listener[Listener]
-    Implant[💀 Implant]
+    Operator["🔴 Operator"]
+    TS["Team Server (Go)"]
+    Listener["Listener"]
+    Implant["💀 Implant"]
     Operator --> TS
     TS --> Listener
     Implant -- "Encrypted Beacon" --> Listener
@@ -85,12 +77,4 @@ graph LR
 An Intrusion Detection System for CAN Bus networks that uses statistical analysis to detect replay attacks and fuzzing.
 
 📊 GitHub Stats
-<p align="left"> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3D[YOUR_USERNAME]&show_icons=true&theme=radical&count_private=true" alt="Stats" /> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3D[YOUR_USERNAME]&layout=compact&theme=radical&hide=html,css" alt="Top Langs" /> </p>
-
-🔗 Connect
-
-### Important Note on Links
-In the "Featured Engineering Projects" section above, I provided the summaries. Once you have created the actual repositories for these projects, you should turn the titles (e.g., `#### 1. 🛡️ eBPF Kernel Security Monitor`) into links pointing to those repos.
-
-Example:
-`#### 1. [🛡️ eBPF Kernel Security Monitor](https://github.com/[YOUR_USERNAME]/eBPF-Monitor)`
+<p align="left"> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DGReeeeper&show_icons=true&theme=radical&count_private=true" alt="Stats" /> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DGReeeeper&layout=compact&theme=radical&hide=html,css" alt="Top Langs" /> </p>

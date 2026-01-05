@@ -25,8 +25,10 @@ I am a security engineer specializing in **Low-Level Security**, **Kernel Develo
 
 #### 1. 🛡️ eBPF Kernel Security Monitor
 > *A lightweight, high-performance observability tool designed to detect anomalous behavior at the Linux kernel level using eBPF hooks.*
+
 <details>
 <summary><b>🔎 View Architecture Diagram</b></summary>
+<br>
 
 ```mermaid
 graph TD
@@ -50,6 +52,9 @@ graph TD
 A Host Intrusion Prevention System engineered for Windows, utilizing a custom Kernel Mode Driver (KMDF) to monitor process creation and registry ops.
 
 <details> <summary><b>🔎 View Architecture Diagram</b></summary>
+
+
+Extrait de code
 ```
 graph TD
     subgraph User_Mode
@@ -68,6 +73,9 @@ graph TD
 A modular C2 framework prioritizing OPSEC with a Golang Team Server and stealthy, malleable C implants.
 
 <details> <summary><b>🔎 View Architecture Diagram</b></summary>
+
+
+Extrait de code
 ```
 graph LR
     Operator["🔴 Operator"]
@@ -77,9 +85,8 @@ graph LR
     Operator --> TS
     TS --> Listener
     Implant -- "Encrypted Beacon" --> Listener
-```
 </details>
-
+```
 4. 🚗 AutoGuard (Automotive IDS)
 An Intrusion Detection System for CAN Bus networks that uses statistical analysis to detect replay attacks and fuzzing.
 
